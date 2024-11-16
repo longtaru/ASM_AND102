@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap username"
+        android:background="@drawable/custom_edittext"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap password"
+        android:background="@drawable/custom_edittext"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-Password:"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/edt_repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap lai password"
+        android:background="@drawable/custom_edittext"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full name"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/edt_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap fullname"
+        android:background="@drawable/custom_edittext"/>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:background="@drawable/custom_button_orange"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:background="@drawable/custom_button_orange"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:textAllCaps="true" />
+</LinearLayout>

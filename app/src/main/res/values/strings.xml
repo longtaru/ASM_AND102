@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASM</string>
+    <string name="forgot_password"><u>forgot password?</u></string>
+    <string name="sign_up">Don\'t have an account?<b>Sign up</b></string>
+    <string name="edit"><u>Chinh sua</u></string>
+    <string name="delete"><u>Xoa</u></string>
+</resources>
